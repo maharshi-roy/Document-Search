@@ -1,0 +1,40 @@
+{
+  "name": "boot-camp-search",
+  "version": "0.0.0",
+  "description": "BootCampSearch",
+  "main": "src/main.js",
+  "author": {
+    "name": "Maharshi Roy"
+  },
+  "scripts": {
+    "buildCpp": "node-gyp rebuild",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "electron": "electron ."
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@material-ui/core": "^4.3.2",
+    "@material-ui/icons": "^4.2.1",
+    "babel-loader": "^8.0.6",
+    "clsx": "^1.0.4",
+    "file-loader": "^4.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "electron": "^6.0.1",
+    "electron-json-storage": "^4.1.7"
+  }
+}

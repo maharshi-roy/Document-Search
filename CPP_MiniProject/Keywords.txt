@@ -1,0 +1,14 @@
+* Single Keywords
+"Battle" 
+"reconnaissance"
+
+* Phrase Search 
+"Contact patrols"
+Australian troops
+
+* Logical Search
+"German" AND "patrols" OR "Britain"
+"rebuilding and modernizing" OR "interpreters" AND "November"
+"maintaining contact with forward troops" AND "race that began"
+
+
